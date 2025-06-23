@@ -14,7 +14,7 @@ const Input = (props) => {
 
       <div className="input-box">
         <input
-          type={showPassword ? "text" : "password"}
+          type={props.type==='password' && (showPassword ? "text" : "password")}
           placeholder={props.placeholder}
           className="w-full bg-transparent outline-none"
           value={props.value}
