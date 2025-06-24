@@ -27,9 +27,9 @@ const Input = (props) => {
           onClick={toggleShowPassword}
         >
           {props.type === 'password' && (showPassword ? (
-            <FaRegEyeSlash size={22} className="primary-color"/>
+            <FaRegEye size={22} className="primary-color"/>
           ) : (
-            <FaRegEye size={22} className="primary-color" />
+            <FaRegEyeSlash size={22} className="primary-color" />
           ))}
         </div>
       </div>
