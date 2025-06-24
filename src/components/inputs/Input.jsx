@@ -29,7 +29,7 @@ const Input = (props) => {
           {props.type === 'password' && (showPassword ? (
             <FaRegEye size={22} className="primary-color"/>
           ) : (
-            <FaRegEyeSlash size={22} className="primary-color" />
+            <FaRegEyeSlash   size={22} className="primary-color" />
           ))}
         </div>
       </div>
